@@ -7,9 +7,10 @@ namespace account.Models
 {
     public class Myclass
     {
-        public int num { get; set; }
+        public Guid num { get; set; }
         public string category{ get; set; }
         public DateTime date { get; set; }
-        public int money { get; set; }
+        public Decimal money { get; set; }
+        public string remark { get; set; }
     }
 }
